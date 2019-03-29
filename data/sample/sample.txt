@@ -1,0 +1,232 @@
+# ::id 31 
+# ::snt The window opened.
+(10002 / _open_v_1
+  :lnk "<11:18>"
+  :sf PROP
+  :mood INDICATIVE
+  :tense PAST
+  :perf - 
+  :ARG1-NEQ (10001 / _window_n_1
+    :lnk "<4:10>"
+    :ind +  
+    :num SG 
+    :pers 3 
+    :RSTR-H-of (10000 / _the_q
+      :lnk "<0:3>")))
+
+# ::id 51
+# ::snt Abrams handed Browne the cigarette.
+(10002 / _hand_v_1
+  :lnk "<7:13>"
+  :sf PROP
+  :mood INDICATIVE
+  :tense PAST
+  :perf -
+  :ARG1-NEQ (10001 / named
+    :lnk "<0:6>"
+    :carg "Abrams"
+    :ind +
+    :num SG
+    :pers 3)
+  :ARG3-NEQ (10004 / named
+    :lnk "<14:20>"
+    :carg "Browne"
+    :ind +
+    :num SG
+    :pers 3)
+  :ARG2-NEQ (10006 / _cigarette_n_1
+    :lnk "<25:35>"
+    :ind +
+    :num SG
+    :pers 3
+    :RSTR-H-of (10005 / _the_q
+      :lnk "<21:24>")))
+
+
+# ::id 20001001
+# ::snt Pierre Vinken, 61 years old, will join the board as a nonexecutive director Nov. 29.
+(10010 / _join_v_1
+  :lnk "<34:38>"
+  :perf -
+  :tense FUT
+  :mood INDICATIVE
+  :sf PROP
+  :ARG1-NEQ (10004 / named
+    :lnk "<7:14>"
+    :carg "Vinken"
+    :ind +
+    :pers 3
+    :num SG
+    :ARG1-EQ-of (10001 / compound
+      :lnk "<0:14>"
+      :perf -
+      :tense UNTENSED
+      :mood INDICATIVE
+      :sf PROP
+      :ARG2-NEQ (10003 / named
+        :lnk "<0:6>"
+        :carg "Pierre"
+        :ind +
+        :pers 3
+        :num SG))
+    :ARG1-EQ-of (10009 / _old_a_1
+      :lnk "<24:28>"
+      :perf -
+      :tense UNTENSED
+      :mood INDICATIVE
+      :sf PROP
+      :ARG1-EQ-of (10005 / measure
+        :lnk "<15:23>"
+        :perf -
+        :tense UNTENSED
+        :mood INDICATIVE
+        :sf PROP
+        :ARG2-NEQ (10008 / _year_n_1
+          :lnk "<18:23>"
+          :ind +
+          :pers 3
+          :num PL
+          :ARG1-EQ-of (10007 / card
+            :lnk "<15:17>"
+            :carg "61"
+            :perf -
+            :tense UNTENSED
+            :mood INDICATIVE
+            :sf PROP)))))
+  :ARG2-NEQ (10012 / _board_n_of
+    :lnk "<43:48>"
+    :pers 3
+    :num SG
+    :RSTR-H-of (10011 / _the_q
+      :lnk "<39:42>"))
+  :ARG1-EQ-of (10013 / _as_p
+    :lnk "<49:51>"
+    :perf -
+    :tense UNTENSED
+    :mood INDICATIVE
+    :sf PROP
+    :ARG2-NEQ (10016 / _director_n_of
+      :lnk "<67:75>"
+      :ind +
+      :pers 3
+      :num SG
+      :RSTR-H-of (10014 / _a_q
+        :lnk "<52:53>")
+      :ARG1-EQ-of (10015 / _nonexecutive/jj_u_unknown
+        :lnk "<54:66>"
+        :perf -
+        :tense UNTENSED
+        :mood INDICATIVE
+        :sf PROP)))
+  :ARG1-EQ-of (10017 / loc_nonsp
+    :lnk "<76:84>"
+    :perf -
+    :tense UNTENSED
+    :mood INDICATIVE
+    :sf PROP
+    :ARG2-NEQ (10022 / dofm
+      :lnk "<81:84>"
+      :carg "29"
+      :gend N
+      :ind +
+      :pers 3
+      :num SG
+      :RSTR-H-of (10019 / def_explicit_q
+        :lnk "<76:80>")
+      :ARG1-EQ-of (10020 / of_p
+        :lnk "<76:80>"
+        :perf -
+        :tense UNTENSED
+        :mood INDICATIVE
+        :sf PROP
+        :ARG2-NEQ (10018 / mofy
+          :lnk "<76:80>"
+          :carg "Nov"
+          :ind +
+          :pers 3
+          :num SG
+          :RSTR-H-of (10021 / def_implicit_q
+            :lnk "<76:80>"))))))
+
+
+# ::id 20001002
+# ::snt Mr. Vinken is chairman of Elsevier N.V., the Dutch publishing group.
+(10005 / _be_v_id
+  :lnk "<11:13>"
+  :perf -
+  :tense PRES
+  :mood INDICATIVE
+  :sf PROP
+  :ARG1-NEQ (10004 / named
+    :lnk "<4:10>"
+    :carg "Vinken"
+    :ind +
+    :pers 3
+    :num SG
+    :ARG1-EQ-of (10001 / compound
+      :lnk "<0:10>"
+      :perf -
+      :tense UNTENSED
+      :mood INDICATIVE
+      :sf PROP
+      :ARG2-NEQ (10003 / _mister_n_1
+        :lnk "<0:3>"
+        :ind +
+        :pers 3
+        :num SG)))
+  :ARG2-NEQ (10007 / _chairman_n_of
+    :lnk "<14:22>"
+    :ARG1-EQ-of (10008 / _of_p
+      :lnk "<23:25>"
+      :perf -
+      :tense UNTENSED
+      :mood INDICATIVE
+      :sf PROP
+      :ARG2-NEQ (10011 / named
+        :lnk "<26:34>"
+        :carg "Elsevier"
+        :ind +
+        :pers 3
+        :num SG
+        :ARG1-EQ-of (10014 / compound
+          :lnk "<35:40>"
+          :ARG2-NEQ (10012 / _nv_n_1
+            :lnk "<35:40>"
+            :ind +))))
+    :MOD-EQ-of (10009 / appos
+      :lnk "<26:68>"
+      :perf -
+      :tense UNTENSED
+      :mood INDICATIVE
+      :sf PROP
+      :ARG1-NEQ 10011
+      :ARG2-NEQ (10021 / _group_n_of
+        :lnk "<62:68>"
+        :ind +
+        :pers 3
+        :num SG
+        :RSTR-H-of (10015 / _the_q
+          :lnk "<41:44>")
+        :ARG1-EQ-of (10016 / _dutch_a_1
+          :lnk "<45:50>"
+          :perf -
+          :tense UNTENSED
+          :mood INDICATIVE
+          :sf PROP)
+        :ARG1-EQ-of (10017 / compound
+          :lnk "<51:68>"
+          :perf -
+          :tense UNTENSED
+          :mood INDICATIVE
+          :sf PROP
+          :ARG2-NEQ (10020 / nominalization
+            :lnk "<51:61>"
+            :gend N
+            :pers 3
+            :num SG
+            :ARG1-HEQ (10019 / _publish_v_1
+              :lnk "<51:61>"
+              :perf -
+              :tense UNTENSED
+              :mood INDICATIVE
+              :sf PROP)))))))

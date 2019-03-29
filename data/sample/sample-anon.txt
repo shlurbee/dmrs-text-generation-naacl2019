@@ -1,0 +1,4 @@
+[]
+[{"span": [0, 6], "realized": "Abrams", "value": "Abrams", "ph": "named0"}, {"span": [14, 20], "realized": "Browne", "value": "Browne", "ph": "named1"}]
+[{"span": [7, 13], "realized": "Vinken", "value": "Vinken", "ph": "named0"}, {"span": [0, 6], "realized": "Pierre", "value": "Pierre", "ph": "named1"}, {"span": [15, 17], "realized": "61", "value": "61", "ph": "card0"}, {"span": [54, 66], "realized": "nonexecutive", "value": "nonexecutive", "ph": "UNKnonexecutive0"}, {"span": [81, 83], "realized": "29", "value": "29", "ph": "dofm0"}, {"span": [76, 79], "realized": "Nov", "value": "Nov", "ph": "mofy0"}]
+[{"span": [4, 10], "realized": "Vinken", "value": "Vinken", "ph": "named0"}, {"span": [26, 34], "realized": "Elsevier", "value": "Elsevier", "ph": "named1"}]
