@@ -1,5 +1,5 @@
 # dmrs-text-generation
-Generating text from DMRS (minimal recursion semantics) representation.
+Generating text from DMRS (minimal recursion semantics) representation. (See https://www.aclweb.org/anthology/N19-1235)
 
 Quick Start:
 
