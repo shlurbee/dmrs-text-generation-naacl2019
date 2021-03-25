@@ -21,7 +21,7 @@ prompt-toolkit==1.0.15
 ptyprocess==0.5.2
 PyDelphin==0.6.2
 Pygments==2.2.0
-PyYAML==3.12
+PyYAML==5.4
 requests==2.18.4
 sacrebleu
 simplegeneric==0.8.1
